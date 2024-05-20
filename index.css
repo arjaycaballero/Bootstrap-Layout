@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.box {
+    color: black;
+}
+.box1 {
+    background-color: yellow;
+    height: 30px;
+
+}
+
+.box2 { 
+    background-color: blue;
+    height: 30px;
+}
+
+.box3 {
+    background-color: greenyellow;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
